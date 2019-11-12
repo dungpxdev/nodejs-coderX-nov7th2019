@@ -1,12 +1,24 @@
 {
   "users": [
     {
-      "id": "2V0w8_Oc",
-      "name": "huy huy shortid test"
+      "id": "XT_pPKHB",
+      "name": "Phan Xuân Dũng",
+      "phone": "0705263162"
     },
     {
-      "id": "xjJ0O5ht",
-      "name": "Phan Xuân Dũng"
+      "id": "9D4Ol4fm",
+      "name": "Huỳnh Ngọc Minh Thi",
+      "phone": "12345555"
+    },
+    {
+      "id": "hWDlW0EA",
+      "name": "Phan Huy",
+      "phone": "0705263162"
+    },
+    {
+      "id": "Lvpj9opm",
+      "name": "Dung Phan",
+      "phone": "0705263162"
     }
   ]
 }

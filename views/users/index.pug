@@ -14,11 +14,13 @@ block content
     tr
       th Id
       th Name
+      th Phone
       th Actions
 
     each user in users
       tr
         td= user.id
         td= user.name
+        td= user.phone
         td
           a.btn.btn-light(href='/users/' + user.id) View
