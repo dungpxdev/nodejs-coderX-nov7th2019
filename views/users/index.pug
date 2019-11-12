@@ -10,7 +10,10 @@ table
   tr
     th id
     th User
+    th
         each user in users
           tr
             td=user.id
             td=user.name
+            td
+              a(href='/users/'+user.id) View

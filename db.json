@@ -1,3 +1,24 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "2V0w8_Oc",
+      "name": "huy huy shortid test"
+    },
+    {
+      "id": "xjJ0O5ht",
+      "name": "Phan Xuân Dũng"
+    },
+    {
+      "id": "R9cr7Jp3",
+      "name": "Phan Huy"
+    },
+    {
+      "id": "DzEuZqvf",
+      "name": "Phan Xuân Dũng"
+    },
+    {
+      "id": "axGEeHPu",
+      "name": "Huỳnh Ngọc Minh Thi"
+    }
+  ]
 }
