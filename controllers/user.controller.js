@@ -42,3 +42,8 @@ module.exports.postCreate = (req, res) => {
     db.get('users').push(user).write()
     res.redirect("/users")
 };
+
+module.exports.cookie = (req,res,next)=>{
+    res.cookie('user-id',12345)
+    res.send('hello');
+};

@@ -1,6 +1,12 @@
 {
   "users": [
     {
+      "id": "Lvpj9opm",
+      "name": "DungPhan",
+      "phone": "0705263162",
+      "password": "123456"
+    },
+    {
       "id": "XT_pPKHB",
       "name": "Phan Xuân Dũng",
       "phone": "0705263162"
@@ -8,21 +14,6 @@
     {
       "id": "9D4Ol4fm",
       "name": "Huỳnh Ngọc Minh Thi",
-      "phone": "12345555"
-    },
-    {
-      "id": "hWDlW0EA",
-      "name": "Phan Huy",
-      "phone": "0705263162"
-    },
-    {
-      "id": "Lvpj9opm",
-      "name": "Dung Phan",
-      "phone": "0705263162"
-    },
-    {
-      "id": "BM1eRRrv",
-      "name": "Dung Phan Xuan",
       "phone": "12345555"
     }
   ]

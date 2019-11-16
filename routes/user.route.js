@@ -15,4 +15,6 @@ router.get('/:id', controller.get)
 
 router.post('/create', validate.postCreate, controller.postCreate)
 
+//router.get('/cookie',controller.cookie)
+
 module.exports = router
