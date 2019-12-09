@@ -15,6 +15,7 @@ block content
       th Id
       th Name
       th Phone
+      th Avatar
       th Actions
 
     each user in users
@@ -22,5 +23,7 @@ block content
         td= user.id
         td= user.name
         td= user.phone
+        td
+          img(src=user.avatar, alt="avatar")
         td
           a.btn.btn-light(href='/users/' + user.id) View

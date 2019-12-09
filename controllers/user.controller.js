@@ -31,15 +31,9 @@ module.exports.get = (req, res) => {
 };
 
 module.exports.postCreate = (req, res) => {
-    let id = shortid.generate();
-    let phone = req.body.phone;
-    let name = req.body.name;
-    const user = {
-        id: id,
-        name: name,
-        phone:phone
-    }
-    db.get('users').push(user).write()
+    req.body.id = shortid.generate();
+    req.body.avatar = req.file.path.split('\\').slice(1).join('/');
+    db.get('users').push(req.body).write()
     res.redirect("/users")
 };
 
